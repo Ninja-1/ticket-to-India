@@ -5,33 +5,26 @@
 body {
   background-color: #2D2D2D;
 }
-
 .wrapP {
   background: url(./img/1_.png) center center no-repeat;
-  background-size: cover;
-  
-  position: relative;
-  padding: 30px 60px 60px 100px;
-  
-  /*position: absolute;*/
-  /*background-size: cover;*/  
+  background-size: cover;  
+  /*position: relative;*/
+  padding: 30px 60px 100px 100px;
 }
 h1 {
+  display: inline-block;
   font-family: Sans-serif;
   font-size: 80px;
   margin-top: 60px;
   margin-left: 100px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   color: white;
   left: 30px;
   
 }
 .ind1 {
   font-family: Sans-serif;
-  font-size:50px;
-/*  padding-top: 20px;
-  margin-left: 30px;*/
- /* margin-bottom: 150px;*/
+  font-size: 50px;
   color: white;
   left: 30px;  
   line-height: 1.5;
@@ -40,50 +33,78 @@ h1 {
   font-family: Sans-serif;
   font-size: 50px;
   padding-top: 500px;
-  /*margin-left: 50%;
-  transform: translate(-50%,0);*/
   margin-bottom: 50px;
   text-align: center;
   color: white;
-  /*left: 30px;*/
 }
 .ind3 {
   font-family: Sans-serif;
   font-size: 50px;
   padding-top: 680px;
-/*  margin-left: 50%;
-  transform: translate(-50%,0);*/
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   text-align: center;
   color: white;
-  /*left: 30px;*/
 }
-
 button {
   cursor: pointer;
   width: 450px;
   height: 120px;
-  border-radius: 50px;
+  border-radius: 60px;
   font-family: Sans-serif;
   font-size: 50px;
-  background-color: #e84c12;
+  background-color: #fc3e11;
   font-weight: 600;
   color: white;
-  
-  /*position: absolute;*/
   margin-left: 50%;
   transform: translate(-50%,0);
-  /*margin-bottom: 50px;*/
-  /*box-shadow: 0px 0px 8px rgba(250,250,250,0.9);*/
   border: none;
   bottom: 50px;
 }
 .wrapM {
   background: url(./img/2.png) center center no-repeat;
-  background-size: cover;
-  
-  padding: 20px 30px 60px 30px;
-  
-  /*min-width: 200px;*/
+  background-size: cover;  
+  padding: 20px 30px 60px 30px; 
 }
+
+.circl {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  margin-top: 90px;
+  margin-right: 90px;
+  width: 50px;
+  height: 50px;
+  background-color: #fc3e11;
+  border-radius: 50px;
+  color: white;  
+  font-family: Sans-serif;
+  font-size: 40px;
+  padding: 5px;
+  text-align: center;
+}
+/*Модальное окно*/
+/*.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.8);
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}*/
 
